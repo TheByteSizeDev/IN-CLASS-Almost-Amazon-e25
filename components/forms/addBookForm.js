@@ -1,6 +1,6 @@
 import clearDom from '../../utils/clearDom';
 import renderToDOM from '../../utils/renderToDom';
-import selectAuthor from './selectAuthor';
+// import selectAuthor from './selectAuthor';
 
 // USING THIS FORM FOR BOTH CREATE AND UPDATE
 const addBookForm = (obj = {}) => {
@@ -34,7 +34,7 @@ const addBookForm = (obj = {}) => {
     </form>`;
 
   renderToDOM('#form-container', domString);
-  selectAuthor(`${obj.author_id || ''}`);
+  // selectAuthor(`${obj.author_id || ''}`);
 };
 
 export default addBookForm;
