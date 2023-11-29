@@ -32,7 +32,7 @@ const formEvents = () => {
         description: document.querySelector('#description').value,
         image: document.querySelector('#image').value,
         price: document.querySelector('#price').value,
-        // author_id: document.querySelector('#author_id').value,
+        author_id: document.querySelector('#author_id').value,
         sale: document.querySelector('#sale').checked,
         firebaseKey,
       };
